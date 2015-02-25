@@ -1,7 +1,7 @@
 <?php include 'incl/header.php'; ?>
 <?php include 'incl/hero.php'; ?>
 
-	<main class="main-content container-m">
+	<main class="main-content container-s">
 		<section class="section group">
 			<article class="col span_6_of_12 info-box">
 				<header>
