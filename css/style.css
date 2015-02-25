@@ -572,6 +572,9 @@ a {
   color: #fff;
   text-align: center; }
 
+.slogan span {
+  background: rgba(255, 78, 0, 0.8); }
+
 .slogan > * {
   margin-bottom: 15px;
   padding-bottom: 0; }
