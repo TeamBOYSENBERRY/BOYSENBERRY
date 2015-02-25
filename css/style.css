@@ -550,9 +550,11 @@ a {
     padding: 0;
     list-style: none; }
     .top-navigation ul li {
+      font-size: 0.807em;
       font-weight: 700;
       display: inline-block;
-      margin-right: 5px; }
+      margin-right: 5px;
+      text-transform: uppercase; }
       .top-navigation ul li:last-child {
         margin-right: 0; }
   .top-navigation a {
