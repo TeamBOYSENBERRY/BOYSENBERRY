@@ -575,6 +575,7 @@ a {
   text-align: center; }
 
 .slogan span {
+  padding: 0 20px;
   background: rgba(255, 78, 0, 0.8); }
 
 .slogan > * {
