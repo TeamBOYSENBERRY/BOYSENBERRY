@@ -1,6 +1,6 @@
 <aside class="hero">
 		<div class="slogan">
-			<h2 class="h1-size">Talk QWERTY to me!</h2>
+			<h2 class="h1-size"><span>Talk QWERTY to me!</span></h2>
 		</div> <!-- End of .slogan -->
 
 		<div class="description">
