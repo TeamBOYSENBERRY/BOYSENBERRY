@@ -1,0 +1,78 @@
+/**
+* Code block:: Base styles
+* 
+* Description:: Here we define all the basic styles for some DOM elements:
+* - styles for the body
+* - styles for paragraphs
+* - styles for links
+* - styles for lists  
+* - other basic styles
+*
+*/
+
+/*--------------- Basic ---------------*/
+*{
+	box-sizing: border-box;
+}
+
+body{
+	color: $base-font-color;
+	font-family: $font;
+	background: $bg-color;
+}
+
+.container-m{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.container-s{
+	width: 60%;
+	margin: 0 auto;
+}
+
+/*--------------- Typography ---------------*/
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+h1, .h1-size {
+  margin-top: 0;
+  font-size: $h1-size;
+}
+
+h2, .h2-size {font-size: $h2-size;}
+h3, .h3-size {font-size: $h3-size;}
+h4, .h4-size {font-size: $h4-size;}
+h5, .h5-size {font-size: $h5-size;}
+h6, .h6-size {font-size: $h6-size;}
+small, .font-small {font-size: $h6-size;}
+
+.font-light{ font-weight: 300; }
+.font-regulat{ font-weight: 400; }
+.font-bold{ font-weight: 700; }
+.font-extra-bold{ font-weight: 800; }
+
+/*--------------- Links ---------------*/
+a{
+	color: $color-links;
+	text-decoration: none;
+
+	&:hover{
+		color: $color-accent-hover;
+	}
+}
+
+/*--------------- Others ---------------*/
+::selection {
+	color: #fff;
+  	background: $color-accent; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	color: #fff;
+  	background: $color-accent; /* Gecko Browsers */
+}

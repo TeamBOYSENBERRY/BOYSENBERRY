@@ -1,0 +1,127 @@
+Боби:
+
+-------------------------------------
+Why and how to use php in our project
+-------------------------------------
+
+В нашия проект ще използваме съвсем малко PHP, точно 1 ред, който ще улесни работата ни многократно.
+
+	1. Как да използваме php.
+		- Свалете си xampp. => https://www.apachefriends.org/index.html
+		- След като пуснете xampp, стартирайте Apache и MySQL (start бутоните).
+		- Това е.
+
+	2. За да подкарате нашия проект:
+		- Копирайте папката на проекта.
+		- Отидете до директорията, където ви е инсталиран xampp-а. При мен:
+			D:\\xampp
+		- Сега отидете в папка htdocs
+			D:\\xampp\htdocs
+		- Пействате папката и проекта е готов да бъде пуснат.
+
+	3. Преглед на проекта:
+		- В браузъра пишете localhost/името-на-папката-с-нашия-проект
+		- Готово.
+
+За да върви нашия проект, трябва да имате включени Apache и MySQL винаги, тъй като той използва php (макар и много малко).
+
+PHP ни дава възможност кода ни да работи като отделни модули, които се включват в HTML. С функцията include 'file-name.php' инклудваме модул (друг файл) в нашия текущ файл. Много хубав 4-минутен урок: https://www.youtube.com/watch?v=P8GfJE0d-3A . Елементарно е и е супер удобно за нашите цели.
+
+Така, когато искаме да направим нова страница, примерно contacts.php, вместо да копираме повтарящите се части от другите страници (header, footer), използваме include. И при последваща промяна в последствие, лесно можем да променим на 1 място и да повлияе навсякъде, където файла е инклуднат.
+
+-------------
+What is SASS:
+-------------
+
+SASS е препроцесор за CSS. Тоест, вие пишете маааалко по-различен (и по-приличен) CSS, а след компилация получавате чист CSS. 
+	1. Как се пише SASS:
+		- Много е лесно. Основното което трябва да знаете е, че имаме променливи, където можем да пазим разни стойности (като цветове, например) и да ги преизползваме в целия SASS код (за нашия проект съм ги сложил във файла varmix.scss). Променливите се означават с $ и могат да се използват навсякъде.
+
+			Пример:
+			$main-color: red;
+
+			.body{
+				background: $main-color;
+			}
+
+				вместо:
+
+			.body{
+				background: red;
+			}
+
+		- Другото яко на SASS е възможността да nest-вате стилове. Вместо да пишете ".random-class ul li", можете да нестнете елементите така:
+
+				.random-class{
+					ul{
+						li{
+							color: $green; // примерно
+						}
+					}
+				}
+
+	2. Как се компилира SASS.
+		- Има два начина - през cmd (http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass)
+		- Чрез програмка - например Koala (безплатна е - http://koala-app.com/). Само посочвате файла, който искате да компилирате и той се компилира. В нашия случай искаме да компилираме само index.scss, тъй като в себе си той include-ва останалите сасс файлове (.scss). След компилацията ще получим кода в чист css във файла style.css.
+
+	3. Ресурси:
+		- За сасс можете да прочетете тук: http://sass-lang.com/guide
+		- И да гледате уроци в нета, пълно е, а sass е елементарен за разбиране - 15 минутки и сте го разбрали.
+
+-----------------------------------
+The SASS structure for our project:
+-----------------------------------
+
+	- ===  base  === - All the basic styles of the elements of the HTML DOM. These elements will look exactly the same on ALL pages.
+
+	- ===  grid  === - The grid of the site. With it's help we position our boxes and contents on the page. We use the responsive grid system, which is extremely easy to grasp. 
+		For every row of data you type 
+		=> class="section group"
+
+		For every col of data in this row, you type:
+		=> class="col span_1_of_12" 	= for 1 column in a row
+		=> class="col span_2_of_12" 	= for 2 columns in a row
+		=> class="col span_3_of_12" 	= for 3 columns in a row
+		=> class="col span_4_of_12" 	= for 4 columns in a row
+		=> class="col span_5_of_12"		= for 5 columns in a row
+		=> class="col span_6_of_12"	 	= for 6 columns in a row
+		=> class="col span_7_of_12"	 	= for 7 columns in a row
+		=> class="col span_8_of_12"	 	= for 8 columns in a row
+		=> class="col span_9_of_12"	 	= for 9 columns in a row
+		=> class="col span_10_of_12"	= for 10 columns in a row
+		=> class="col span_11_of_12"	= for 11 columns in a row
+		=> class="col span_12_of_12"	= for 12 columns in a row
+
+			For example I want 1 row with 3 cols:
+
+			<div class="section group"> 
+				<div class="col span_4_of_12">content</div>
+				<div class="col span_4_of_12">content</div>
+				<div class="col span_4_of_12">content</div>
+			</div>
+
+			Or for 1 row with 2 cols
+
+			<div class="section group"> 
+				<div class="col span_6_of_12">content</div>
+				<div class="col span_6_of_12">content</div>
+			</div>
+
+			Or for 1 row with 6 cols
+
+			<div class="section group"> 
+				<div class="col span_2_of_12">content</div>
+				<div class="col span_2_of_12">content</div>
+				<div class="col span_2_of_12">content</div>
+				<div class="col span_2_of_12">content</div>
+				<div class="col span_2_of_12">content</div>
+				<div class="col span_2_of_12">content</div>
+			</div>
+
+	- ===  helpers  === - some helper classes for alignment of text, colors and others
+
+	- ===  layout  === - styling all the other elements - you mainly code in this css. :)
+
+	- ===  normalize  === - to reset some default browser 
+
+All of the top compiles to a style.css.
