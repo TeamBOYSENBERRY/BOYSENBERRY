@@ -591,6 +591,15 @@ a {
   margin-top: 100px;
   margin-bottom: 100px; }
 
+.info-row {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ebebeb; }
+  .info-row:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0; }
+
 .info-box-title {
   margin-top: 0; }
 
