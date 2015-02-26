@@ -7,10 +7,13 @@
 
 /*--------------- Top ---------------*/
 .top-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	background: #fff;
 	border-bottom: 1px solid $color-light;
-	margin-top: 5px;
-	padding: 10px 0;
+	padding: 20px 0 10px 0;
 }
 
 .top-navigation{
@@ -48,6 +51,7 @@
 }
 
 .hero{
+	margin-top: 92px;
 	padding: 150px 0;
 	background-image: url('../img/hero-img.jpg');
 	background-size: cover;
