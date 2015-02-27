@@ -13,6 +13,10 @@
 	padding: 10px 0;
 }
 
+#togglebox {
+  display: none;
+}
+
 .top-navigation{
 	text-align: right;
 
@@ -20,30 +24,84 @@
 		margin: 5px 0 0 0;
 		padding: 0;
 		list-style: none;
+        height: 50px;
 
-		li{
+		> li{
+            /* set li of the main menu */
 			font-size: $h6-size + .1em;
 			font-weight: 700;
 			display: inline-block;
 			margin-right: 5px;
 			text-transform: uppercase;
+            position: relative;
+
+            > ul {
+                /* set the sub menu and hide it */
+                width: 200%;
+                position: absolute;
+                -webkit-transition: all 0.7s ease;
+                -moz-transition: all 0.7s ease;
+                -ms-transition: all 0.7s ease;
+                -o-transition: all 0.7s ease;
+                transition: all 0.7s ease;
+                display: block;
+                opacity: 0;
+                height: 0;
+                left: -100%;
+                margin-top: 0;
+                overflow: hidden;
+                padding: 0 10px;
+                border-radius: $border-radius-l - 2px;
+                border: 1px groove gray;
+                background: rgba(70,70,70,0.5);
+                > li {
+                    /* set elements of the sub menu */
+                    display: block;
+                    margin: 0 0 10px;
+                    background: #bdbdbd;
+                    &:last-child{
+                      margin-bottom: 0;
+                    }
+
+                    > a, span {
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
 
 			&:last-child{
 				margin-right: 0; // removes the right margin from the last li element
 			}
+
+            &:hover > a, &:hover > span {
+                background: $color-accent;
+                display: inline-block;
+                /* pop-up effect for the menu */
+                -webkit-transform: scale(1.2,1.2);
+                transform: scale(1.2,1.2);
+                color: $font-hover-color;
+                border: 1px solid $color-accent;
+
+            }
+
+            &:hover > ul, > ul:hover{
+                /* trigger the sub menu intro and show it*/
+                opacity: 1;
+                height: auto;
+                left: -50%;
+            }
 		}
 	}
 
-	a{
+	a, span{
 		padding: 8px;
+        cursor: pointer;
+        display: inline-block;
 		border: 1px solid $color-lightest;
 		border-radius: $border-radius-s;
-
-		&:hover{
-			color: #fff;
-			background: $color-accent;
-			border: 1px solid $color-accent;
-		}
+        -webkit-transition: width .1s, height .1s, background-color 1s, -webkit-transform .5s;
+        transition: width .1s, height .1s, background-color 1s, transform .5s;
 	}
 }
 
