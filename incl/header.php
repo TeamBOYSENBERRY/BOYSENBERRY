@@ -22,6 +22,7 @@
 						<li><a href="">Екип</a></li>
 						<li><a href="">Openers</a></li>
 						<li><a href="">Normal-human-fails</a></li>
+						<li><a href="developer-live-jokes.php">Developer jokes</a></li>
 					</ul>
 				</nav>
 
