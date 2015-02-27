@@ -538,10 +538,13 @@ a {
 */
 /*--------------- Top ---------------*/
 .top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: #fff;
   border-bottom: 1px solid #c1c1c1;
-  margin-top: 5px;
-  padding: 10px 0; }
+  padding: 20px 0 10px 0; }
 
 #togglebox {
   display: none; }
@@ -615,6 +618,7 @@ a {
     transition: width .1s, height .1s, background-color 1s, transform .5s; }
 
 .hero {
+  margin-top: 92px;
   padding: 150px 0;
   background-image: url("../img/hero-img.jpg");
   background-size: cover;
@@ -638,6 +642,15 @@ a {
 .main-content {
   margin-top: 100px;
   margin-bottom: 100px; }
+
+.info-row {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ebebeb; }
+  .info-row:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0; }
 
 .info-box-title {
   margin-top: 0; }
