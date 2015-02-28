@@ -11,9 +11,11 @@
 	top: 0;
 	left: 0;
 	width: 100%;
+    height: $margin-top-page;
 	background: #fff;
 	border-bottom: 1px solid $color-light;
 	padding: 20px 0 10px 0;
+    z-index: 99999;
 }
 
 #togglebox {
@@ -109,7 +111,7 @@
 }
 
 .hero{
-	margin-top: 92px;
+	margin-top: $margin-top-page;
 	padding: 150px 0;
 	background-image: url('../img/hero-img.jpg');
 	background-size: cover;
@@ -155,11 +157,181 @@
 	margin-top: 0;
 }
 
+.pickups {
+    margin-top: $margin-top-page;
+    padding: 0 5%;
+    /*
+    > div:nth-child(even) {
+        & article:nth-child(even) {
+          background: violet;
+        }
+        & article:nth-child(odd) {
+          background-color: rgba(10, 208, 254, 0.4);
+          -moz-box-shadow:0px 0px 580px rgba(10, 208, 254, 1);
+          -webkit-box-shadow:0px 0px 580px rgba(10, 208, 254,0.2);
+          box-shadow:0px 0px 120px rgba(10, 208, 254, 1);
+        }
+    }
+
+    > div:nth-child(odd) {
+        & article:nth-child(odd) {
+          background: violet;
+        }
+        & article:nth-child(even) {
+          background-color: rgba(10, 208, 254,0.1);
+
+          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+
+          -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99222222, endColorstr=#99222222);
+          z-index:10;
+          -moz-box-shadow:0px 0px 50px rgba(10, 205, 255, 0.53);
+          -webkit-box-shadow:0px 0px 50px rgba(9,129,164,0.2);
+          box-shadow:0px 0px 50px rgba(10, 208, 254,0.2);
+        }
+    }*/
+}
+
+.pick-up-box {
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    p {
+        margin-left: 10%;
+        display: inline-block;
+    }
+}
+
+.line {
+    width: 70%;
+    height: 4px;
+    border-bottom: 2px solid #3e4bff;
+    transform:
+        translateY(20px)
+        translateX(5px)
+        rotate(-2deg);
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+
+.paper {
+    display: block;
+    height: 100%;
+    line-height: 20px;
+    border: 1px solid #F0F0F0;
+
+    /* gradients - second red border, first red border, top white space, blue lines */
+    background-image:  -webkit-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -webkit-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -webkit-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -webkit-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
+    background-image:  -moz-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -moz-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -moz-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -moz-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
+    background-image:  -ms-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -ms-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -ms-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -ms-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
+    background-image:  -o-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -o-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -o-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -o-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
+    background-image:  linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
+    background-size: 1px, 1px, auto, auto 20px;
+    background-repeat: repeat-y, repeat-y, no-repeat, repeat;
+    background-position: 90% 0px, 10% 0px, 0px 0px, 0px 0px;
+
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.paper:first-line {
+    line-height: 33px;
+    vertical-align: baseline;
+}
+
+.paper:focus {
+    outline: none;
+}
+
+#book{
+    width: auto;
+    height: auto;
+    padding: 0 0 100px 0;
+    overflow: hidden;
+}
+
+#book .odd.paper article:after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    background: rgba(255,255,255,1);
+    top: 25%;
+    left: -10%;
+    z-index: 10;
+    -webkit-box-shadow:
+        inset 2px 2px 5px rgba(125,125,125,1),
+        2px 50.1em 5px rgba(255,255,255,1), 0px 50em rgba(125,125,125,.75),
+        2px 90.1em 5px rgba(255,255,255,1), 0px 90em rgba(125,125,125,.5),
+        2px 130.1em 5px rgba(255,255,255,1), 0px 130em rgba(125,125,125,.25);
+    -moz-box-shadow:
+        inset 2px 2px 5px rgba(125,125,125,1),
+        2px 50.1em 5px rgba(255,255,255,1), 0px 50em rgba(125,125,125,.75),
+        2px 90.1em 5px rgba(255,255,255,1), 0px 90em rgba(125,125,125,.5),
+        2px 130.1em 5px rgba(255,255,255,1), 0px 130em rgba(125,125,125,.25);
+    box-shadow:
+        inset 2px 2px 5px rgba(125,125,125,1),
+        2px 50.1em 5px rgba(255,255,255,1), 0px 50em rgba(125,125,125,.75),
+        2px 90.1em 5px rgba(255,255,255,1), 0px 90em rgba(125,125,125,.5),
+        2px 130.1em 5px rgba(255,255,255,1), 0px 130em rgba(125,125,125,.25);
+}
+
+#book .even.paper article:after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    background: rgba(255,255,255,1);
+    top: 25%;
+    right: 1%;
+    z-index: 10;
+    -webkit-box-shadow:
+        inset 2px 2px 5px rgba(125,125,125,1),
+        2px 50.1em 5px rgba(255,255,255,1), 0px 50em rgba(125,125,125,.75),
+        2px 90.1em 5px rgba(255,255,255,1), 0px 90em rgba(125,125,125,.5),
+        2px 130.1em 5px rgba(255,255,255,1), 0px 130em rgba(125,125,125,.25);
+    -moz-box-shadow:
+        inset 2px 2px 5px rgba(125,125,125,1),
+        2px 50.1em 5px rgba(255,255,255,1), 0px 50em rgba(125,125,125,.75),
+        2px 90.1em 5px rgba(255,255,255,1), 0px 90em rgba(125,125,125,.5),
+        2px 130.1em 5px rgba(255,255,255,1), 0px 130em rgba(125,125,125,.25);
+    box-shadow:
+        inset 2px 2px 5px rgba(125,125,125,1),
+        2px 50.1em 5px rgba(255,255,255,1), 0px 50em rgba(125,125,125,.75),
+        2px 90.1em 5px rgba(255,255,255,1), 0px 90em rgba(125,125,125,.5),
+        2px 130.1em 5px rgba(255,255,255,1), 0px 130em rgba(125,125,125,.25);
+}
+
+#book .shadow{
+    box-shadow: 1px 10px 30px #666;
+}
+
+.paper article {
+    position: relative;
+    margin: 50px 0 0 10%;
+    height: 10%;
+    vertical-align: middle;
+    &:hover .line{
+        border-bottom: 2px solid #ff180c;
+    }
+
+    p {
+      display: inline-block;
+    }
+
+}
+
 /*--------------- Bottom ---------------*/
 .site-footer{
 	border-top: 1px solid $color-light;
 	padding: 30px 0;
-	margin-top: 15px;
+	margin: 15px 0 0 0;
 	font-size: 14px;
+    width: 100%;
 	text-align: center;
 }

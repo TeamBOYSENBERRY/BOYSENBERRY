@@ -5,13 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Talk QWERTY to me &mdash; By BOYSENBERRY team.</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/turn-js/turn.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-	
+
 	<header class="top-header">
 		<div class="container-m">
 			<div class="section group">
-				
 				<div class="col span_3_of_12">
 					<h1 class="team-name h4-size">Boysenberry<span class="font-light">team</span></h1>
 				</div>
@@ -23,7 +25,7 @@
                             <li><a href="#">Екип</a></li>
                             <li><span tabindex="0">Openers</span>
                                 <ul>
-                                    <li><a href="#">soft</a></li>
+                                    <li><a href="pick-ups-soft.php">soft</a></li>
                                     <li><a href="#">hardcore</a></li>
                                 </ul>
                             </li>
