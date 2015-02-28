@@ -1,6 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
+.slider-content {
     /*transition*/
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -13,7 +11,7 @@ section#slider {
     background: -ms-radial-gradient(center, circle, #f0f0f0, #74a9ad);
     background: -o-radial-gradient(center, circle, #f0f0f0, #74a9ad);
     background: radial-gradient(center, circle, #f0f0f0, #74a9ad);
-    padding: 50*/px;
+    padding: 50*/
 }
 /* Slider */
 .slider {
