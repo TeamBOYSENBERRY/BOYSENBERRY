@@ -1,7 +1,7 @@
 <?php include 'incl/header.php'; ?>
 
 
-    <main class="main-content container-s page-without-hero">
+    <main class="main-content container-s slider">
         <section class="slider-content">
             <div class="slider">
                 <ul class="frames">
