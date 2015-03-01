@@ -13,6 +13,15 @@
                             <p>Хей, бебчо, да не би да си изгуби timestamp-a, защото съм сигурен че е DateTime.Now().</p>
                             <div class="line"></div>
                         </article>
+						
+						<article>
+                            <p>Baby, ти си толкова гореща, колкото дъното на лаптопа ми.</p>
+                            <div class="line"></div>
+                        </article>
+						<article>
+                            <p>Иска ми се да select-на всичките ти дрехи и да натисна delete.</p>
+                            <div class="line"></div>
+                        </article>
                         <article>
                             <p>Когато си до мен сърцето ми бие сякаш нарушавам W3 конвенциите, бебчо!</p>
                             <div class="line"></div>
