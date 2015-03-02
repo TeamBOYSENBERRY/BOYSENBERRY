@@ -6,9 +6,16 @@
 	<title>Talk QWERTY to me &mdash; By BOYSENBERRY team.</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/_slider.css">
+    <link rel="stylesheet" type="text/css" href="css/book.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/turn-js/turn.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript" src="js/turn-js/jquery-ui-1.8.20.custom.min.js"></script>
+    <script type="text/javascript" src="js/turn-js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="js/turn-js/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript" src="js/turn-js/hash.js"></script>
+    <script type="text/javascript" src="js/turn-js/book.js"></script>
 </head>
 <body>
 
@@ -18,10 +25,6 @@
 				<div class="col span_3_of_12">
 					<h1 class="team-name h4-size"><a href="index.php">Boysenberry</a><span class="font-light">team</span></h1>
 				</div>
-
-
-				
-
 
                 <div class="mobilesidemenu">
                     <input type="checkbox" id="togglebox" />

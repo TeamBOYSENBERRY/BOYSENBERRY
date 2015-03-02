@@ -10,9 +10,9 @@
 
         $(window).bind('keydown',function(e){
             if (e.keyCode==37)
-                $('#book').turn('previous');
+                $('.sj-book').turn('previous');
             else if (e.keyCode==39)
-                $('#book').turn('next');
+                $('.sj-book').turn('next');
         });
 
     </script>

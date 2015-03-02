@@ -1,0 +1,176 @@
+/* Steve jobs' book */
+
+
+.animated{
+	-webkit-transition:margin-left 0.2s ease-in-out;
+	-moz-transition:margin-left 0.2s ease-in-out;
+	-o-transition:margin-left 0.2s ease-in-out;
+	-ms-transition:margin-left 0.2s ease-in-out;
+	transition:margin-left 0.2s ease-in-out;
+}
+
+.sj-book {
+    padding: 100px 0;
+    width: 100%;
+}
+
+.sj-book .zoom-this:hover{
+	opacity:0.9;
+	cursor:pointer;
+}
+
+
+.animated{
+	-webkit-transition:margin-left 0.2s ease-in-out;
+	-moz-transition:margin-left 0.2s ease-in-out;
+	-o-transition:margin-left 0.2s ease-in-out;
+	-ms-transition:margin-left 0.2s ease-in-out;
+	transition:margin-left 0.2s ease-in-out;
+}
+
+.sj-book .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 10px #999;
+	-moz-box-shadow:0 0 10px #999;
+	-ms-box-shadow:0 0 10px #999;
+	-o-box-shadow:0 0 10px #999;
+	box-shadow:0 0 10px #999;
+}
+
+.sj-book .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+
+.sj-book .p1{
+	background-position:0 0;
+}
+
+.sj-book .p1 .side{
+	width:5px;
+	height:600px;
+	position:absolute;
+	top:0;
+	left:475px;
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #bbb), color-stop(0.5,  #ddd), color-stop(1,  #bbb));
+	background-image:-webkit-linear-gradient(left, #bbb, #ddd, #bbb);
+	background-image:-moz-linear-gradient(left, #bbb, #ddd, #bbb);
+	background-image:-ms-linear-gradient(left, #bbb, #ddd, #bbb);
+	background-image:-o-linear-gradient(left, #bbb, #ddd, #bbb);
+	background-image:linear-gradient(left, #bbb, #ddd, #bbb);
+	
+	-webkit-transform:rotateY(-90deg);
+	-moz-transform:rotateY(-90deg);
+	-o-transform:rotateY(-90deg);
+	-ms-transform:rotateY(-90deg);
+	transform:rotateY(-90deg);
+
+	-webkit-transform-origin:top right;
+	-moz-transform-origin:top right;
+	-o-transform-origin:top right;
+	-ms-transform-origin:top right;
+	transform-origin:top right;
+	z-index:100000;
+
+}
+
+
+.sj-book-transform div[page="1"] > div, .sj-book-transform div[page="2"] > div{
+	overflow:visible !important;
+}
+
+.sj-book .depth{
+	background-image:url(../img/pages-depth.png);
+	position:absolute;
+	top:7px;
+	width:16px;
+	height:100%;
+}
+
+.sj-book .front-side .depth{
+	left:4px;
+	background-position:0 0;
+}
+
+.sj-book .back-side .depth{
+	right:4px;
+	background-position:right 0;
+}
+
+.sj-book .cover h1 {
+    color: #ffffff;
+    background: #959500;
+    border-bottom: 3px solid #000000;
+    border-top: 3px solid #000000;
+    padding: 10px 0;
+    margin-top: 60%;
+
+}
+
+.front-side {
+    background: linear-gradient(to right, #670000 95%, #1c0000 100%);;
+}
+
+.back-side {
+    background: linear-gradient(to right, #1c0000 0%, #670000 5%);;
+}
+
+.sj-book .hard{
+	width:800px;
+	height:600px;
+    background: linear-gradient(to right, #8b0000 0%, #670000 5%, #670000 95%, #320000 100%);
+
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-ms-box-shadow:none;
+	box-shadow:none;
+}
+
+.sj-book .page-wrapper{
+	-webkit-perspective:2000px;
+	-moz-perspective: 2000px;
+	-ms-perspective: 2000px;
+	perspective: 2000px;
+}
+
+.sj-book .own-size{
+	height:582px;
+	background-color:white;
+	overflow:hidden;
+}
+
+
+.sj-book .page-number{
+	color:#999;
+	bottom:25px;
+	position:absolute;
+	display:block;
+	text-align: center;
+	line-height:30px;
+	font-size:11px;
+}
+
+.sj-book .book-content .capital,
+.sj-book .book-content .no-indent{
+	text-indent: 0;
+}
+
+.sj-book .capital:first-letter {
+    display:block;
+    float:left;
+    font-size: 300%;
+    line-height: 70%;
+	margin-right: 6px;
+	margin-top: 7px;
+	margin-left:18px;
+}
+
