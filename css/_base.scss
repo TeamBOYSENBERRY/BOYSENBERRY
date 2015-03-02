@@ -76,3 +76,10 @@ a{
 	color: #fff;
   	background: $color-accent; /* Gecko Browsers */
 }
+
+hr{
+	width: 300px;
+	border: 0;
+	border-bottom: 1px solid $color-light;
+	margin: 60px auto;
+}
