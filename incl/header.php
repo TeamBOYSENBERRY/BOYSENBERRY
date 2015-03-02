@@ -34,14 +34,14 @@
                     <nav class="col span_9_of_12 top-navigation">
                         <ul>
                             <li><a href="index.php">Начало</a></li>
-                            <li><a href="#">Екип</a></li>
+                            <li><a href="team.php">Екип</a></li>
                             <li><span tabindex="0">Openers</span>
                                 <ul>
                                     <li><a href="pick-ups-soft.php">soft</a></li>
                                     <li><a href="#">hardcore</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Normal-human-fails</a></li>
+                            <li><a href="fails.php">Fails</a></li>
                             <li><a href="developer-live-jokes.php">Developer jokes</a></li>
                         </ul>
                         <label for="togglebox" id="navtoggler"></label>
