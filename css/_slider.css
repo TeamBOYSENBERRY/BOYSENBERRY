@@ -30,11 +30,12 @@ section#slider {
 .slider .frames {
     height: 250px;
     position: relative;
+    padding:0;
 }
 .slider .frames .slide {
     height: 250px;
     list-style: none;
-    position: absolute;
+    position: fixed;
     width: 450px;
 }
 .slider .slide:target { z-index: 100 }

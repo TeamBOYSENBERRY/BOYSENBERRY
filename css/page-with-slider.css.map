@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,qBAAsB;EAClB,MAAM,EAAC,eAAe;EACtB,qCAAgB;IACZ,UAAU,EAAC,MAAM",
+"sources": ["page-with-slider.scss"],
+"names": [],
+"file": "page-with-slider.css"
+}

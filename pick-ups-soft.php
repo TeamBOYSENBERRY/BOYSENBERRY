@@ -3,6 +3,7 @@
     <main class="pickups container-l">
         <section class="section group">
             <div class="col span_12_of_12">
+<<<<<<< HEAD
                 <div class="t">
                     <div class="tc rel">
                         <div id="sj-book" class="sj-book">
