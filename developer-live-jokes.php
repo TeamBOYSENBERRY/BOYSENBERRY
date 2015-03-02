@@ -6,7 +6,7 @@
         <section class="section group info-row">
             <article class="col span_10_of_12 info-box with-slider">
                 <header>
-                    <h3 class="info-box-title">Love snippets</h3>
+                    <h3 class="info-box-title slider-title">Softuni and developer jokes</h3>
                 </header>
 
                 <div class="info-box-container">
