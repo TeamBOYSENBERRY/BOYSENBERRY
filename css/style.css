@@ -660,6 +660,20 @@ hr {
     .main-content iframe:last-child {
       margin-bottom: 0; }
 
+.member {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #c1c1c1; }
+  .member:last-child {
+    margin-bottom: 0; }
+
+.member-name {
+  margin: 0 auto;
+  padding: 0 auto; }
+
+.member-info {
+  margin-top: 15px; }
+
 .info-row {
   margin-bottom: 30px;
   padding-bottom: 30px;
