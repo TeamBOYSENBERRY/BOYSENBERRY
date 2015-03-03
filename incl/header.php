@@ -41,7 +41,7 @@
                                     <li><a href="#">hardcore</a></li>
                                 </ul>
                             </li>
-                            <li><a href="fails.php">Fails</a></li>
+                            <li><a href="fails.php">Видео</a></li>
                             <li><a href="developer-live-jokes.php">Developer jokes</a></li>
                         </ul>
                         <label for="togglebox" id="navtoggler"></label>
