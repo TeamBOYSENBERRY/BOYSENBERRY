@@ -6,7 +6,7 @@
         <section class="">
             <article class=" with-slider">
                 <header>
-                    <h3 class="slider-title">Ако ти е писанло от мацки...разцъкай тук.</h3>
+                    <h3 class="slider-title">Ако ти е писнало от мацки...разцъкай тук.</h3>
                 </header>
 
                 <div class="info-box-container">
