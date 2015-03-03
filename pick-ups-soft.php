@@ -118,24 +118,26 @@
                             </div>
                             <div class="paper own-size">
                                 <article>
-                                    <p>Скъпа, няма нужда да те каствам, ти си точно моят тип!</p>
+                                    <p>Съжалявам, на мен ли говореше?"Не."Well then, please start.</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>За теб бих сийдвал до края на живота си!</p>
+                                    <p>Можеш ли да хванеш моят exception, защото I'm falling in teamwork with you!</p>
                                     <div class="line"></div>
                                 </article>
-                                <article>
-                                    <p>По красива си от точния енкодинг в MySQL.</p>
-                                    <div class="line"></div>
+                               <article>
+                                    <p>Baby, ти си толкова гореща, колкото дъното на лаптопа ми!</p>
+									<div class="line"></div>
                                 </article>
-                                <article>
-                                    <p>Бих те catch-нал като ексепшън.</p>
-                                    <div class="line"></div>
+								<article>
+                                    <p>Иска ми се да select-на всичките ти дрехите и да натисна delete.</p>
+									<div class="line"></div>
                                 </article>
-                                <article>
-                                    <p>За теб бих използвал Emacs!</p>
+								<article>
+                                    <p>Разкажи ми за себе си, мечтите си, амбициите си, и за телефония си номер.</p>
+									<div class="line"></div>
                                 </article>
+								
                             </div>
                             <div class="hard fixed back-side p9"> <div class="depth"></div> </div>
                             <div class="hard p10"></div>
