@@ -9,8 +9,9 @@
 					</div>
 
 					<div class="col span_3_of_12 member-info">
-						<a href="">facebook</a>
-						<a href="">twitter</a>
+						<a href="http://facebook.com/grigorov.b" title="Facebook"><img src="img/icons/social_facebook_circle.png"></a>
+						<a href="https://twitter.com/brslv" title="Twitter"><img src="img/icons/social_twitter_circle.png"></a>
+						<a href="https://softuni.bg/users/profile/show/brslv" title="SoftUni"><img src="img/icons/icon_id-2_alt.png"></a>
 					</div>
 				</div>
 			</article> 
@@ -22,8 +23,9 @@
 					</div>
 
 					<div class="col span_3_of_12 member-info">
-						<a href="">facebook</a>
-						<a href="">twitter</a>
+						<a href="http://facebook.com/grigorov.b" title="Facebook"><img src="img/icons/social_facebook_circle.png"></a>
+						<a href="https://twitter.com/brslv" title="Twitter"><img src="img/icons/social_twitter_circle.png"></a>
+						<a href="https://softuni.bg/users/profile/show/brslv" title="SoftUni"><img src="img/icons/icon_id-2_alt.png"></a>
 					</div>
 				</div>
 			</article> 
@@ -35,8 +37,9 @@
 					</div>
 
 					<div class="col span_3_of_12 member-info">
-						<a href="">facebook</a>
-						<a href="">twitter</a>
+						<a href="http://facebook.com/grigorov.b" title="Facebook"><img src="img/icons/social_facebook_circle.png"></a>
+						<a href="https://twitter.com/brslv" title="Twitter"><img src="img/icons/social_twitter_circle.png"></a>
+						<a href="https://softuni.bg/users/profile/show/brslv" title="SoftUni"><img src="img/icons/icon_id-2_alt.png"></a>
 					</div>
 				</div>
 			</article> 
@@ -48,8 +51,9 @@
 					</div>
 
 					<div class="col span_3_of_12 member-info">
-						<a href="">facebook</a>
-						<a href="">twitter</a>
+						<a href="http://facebook.com/grigorov.b" title="Facebook"><img src="img/icons/social_facebook_circle.png"></a>
+						<a href="https://twitter.com/brslv" title="Twitter"><img src="img/icons/social_twitter_circle.png"></a>
+						<a href="https://softuni.bg/users/profile/show/brslv" title="SoftUni"><img src="img/icons/icon_id-2_alt.png"></a>
 					</div>
 				</div>
 			</article> 
@@ -61,8 +65,9 @@
 					</div>
 
 					<div class="col span_3_of_12 member-info">
-						<a href="">facebook</a>
-						<a href="">twitter</a>
+						<a href="http://facebook.com/grigorov.b" title="Facebook"><img src="img/icons/social_facebook_circle.png"></a>
+						<a href="https://twitter.com/brslv" title="Twitter"><img src="img/icons/social_twitter_circle.png"></a>
+						<a href="https://softuni.bg/users/profile/show/brslv" title="SoftUni"><img src="img/icons/icon_id-2_alt.png"></a>
 					</div>
 				</div>
 			</article> 
@@ -74,8 +79,9 @@
 					</div>
 
 					<div class="col span_3_of_12 member-info">
-						<a href="">facebook</a>
-						<a href="">twitter</a>
+						<a href="http://facebook.com/grigorov.b" title="Facebook"><img src="img/icons/social_facebook_circle.png"></a>
+						<a href="https://twitter.com/brslv" title="Twitter"><img src="img/icons/social_twitter_circle.png"></a>
+						<a href="https://softuni.bg/users/profile/show/brslv" title="SoftUni"><img src="img/icons/icon_id-2_alt.png"></a>
 					</div>
 				</div>
 			</article> 
@@ -87,8 +93,9 @@
 					</div>
 
 					<div class="col span_3_of_12 member-info">
-						<a href="">facebook</a>
-						<a href="">twitter</a>
+						<a href="http://facebook.com/grigorov.b" title="Facebook"><img src="img/icons/social_facebook_circle.png"></a>
+						<a href="https://twitter.com/brslv" title="Twitter"><img src="img/icons/social_twitter_circle.png"></a>
+						<a href="https://softuni.bg/users/profile/show/brslv" title="SoftUni"><img src="img/icons/icon_id-2_alt.png"></a>
 					</div>
 				</div>
 			</article> 

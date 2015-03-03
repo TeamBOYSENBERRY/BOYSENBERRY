@@ -635,7 +635,8 @@ hr {
   background-size: cover;
   background-position: center;
   color: #fff;
-  text-align: center; }
+  text-align: center; 
+}
 
   .hero:hover {
   margin-top: 100px;
@@ -681,7 +682,20 @@ hr {
   padding: 0 auto; }
 
 .member-info {
-  margin-top: 15px; }
+  margin-top: 15px;
+  text-align: right;
+  }
+
+.member-info img{
+  margin-right: 5px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+.member-info img:hover{
+  opacity: .5;
+}
 
 .info-row {
   margin-bottom: 30px;
@@ -693,7 +707,13 @@ hr {
     border-bottom: 0; }
 
 .info-box-title {
+  display: inline-block;
   margin-top: 0; }
+
+.info-box-img{
+  margin-right: 10px;
+  display: inline-block;
+}
 
 .pickups {
   margin-top: 100px;
