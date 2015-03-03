@@ -7,7 +7,7 @@
                     <div class="tc rel">
                         <div id="sj-book" class="sj-book">
                             <div depth="5" class="hard cover"><div class="side"></div>
-                                <h1>nara4nik na svalq4a</h1>
+                                <h1 class="nakovbible">Introduction to my Bible</h1>
                             </div>
                             <div depth="5" class="hard front-side"><div class="depth"></div>
                             </div>
