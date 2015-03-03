@@ -3,10 +3,10 @@
 
     <main class="main-content container-s page-with-slider">
         
-        <section class="section group info-row">
-            <article class="col span_10_of_12 info-box with-slider">
+        <section class="">
+            <article class=" with-slider">
                 <header>
-                    <h3 class="info-box-title slider-title">Softuni and developer jokes</h3>
+                    <h3 class="slider-title">Ако ти е писанло от мацки...разцъкай тук.</h3>
                 </header>
 
                 <div class="info-box-container">
@@ -15,7 +15,7 @@
                       <li id="one" class="slide">
                         <img src="kolagi/1.jpg" alt="Slide 1">
                           <nav>
-                            <a class="prev" href="#five">&larr;</a>
+                            <a class="prev" href="#eleven">&larr;</a>
                             <a class="next" href="#two">&rarr;</a>
                           </nav>
                         </li>
@@ -44,7 +44,7 @@
                         <img src="kolagi/5.jpg" alt="Slide 5">
                           <nav>
                             <a class="prev" href="#four">&larr;</a>
-                            <a class="next" href="#one">&rarr;</a>
+                            <a class="next" href="#six">&rarr;</a>
                           </nav>
                         </li>
                       <li id="six" class="slide">

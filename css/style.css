@@ -630,7 +630,7 @@ hr {
 
 .hero {
   margin-top: 100px;
-  padding: 150px 0;
+  padding: 190px 0;
   background-image: url("../img/hero-img.jpg");
   background-size: cover;
   background-position: center;
@@ -640,7 +640,7 @@ hr {
 
   .hero:hover {
   margin-top: 100px;
-  padding: 150px 0;
+  padding: 190px 0;
   background-image: url("../img/Smart-hero-img.jpg");
   background-size: cover;
   background-position: center;
