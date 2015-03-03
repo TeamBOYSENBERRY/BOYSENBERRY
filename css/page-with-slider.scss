@@ -3,4 +3,25 @@
     h3.slider-title {
         text-align:center;
     }
+    
+}
+@media screen and (max-width: 490px) {
+    main.page-with-slider {
+        width:80%;
+        div.slider, ul.frames, li.slide,li.slide img {
+            width:360px !important;
+        }
+    }
+}
+@media screen and (max-width: 330px) {
+    main.page-with-slider {
+        width:80%;
+        h3.slider-title {
+           font-size: 15px;
+           margin-top: 40px;
+        }
+        div.slider, ul.frames, li.slide,li.slide img {
+            width:240px !important;
+        }
+    }
 }
