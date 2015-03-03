@@ -4,15 +4,15 @@
 		<section class="section group">
 			<article class="col span_12_of_12">
 				<header>
-					<h2 class="center-text">Когато не знаеш какво да кажеш, по-добре мълчи.</h2>
+					<h2 class="center-text">Видео.</h2>
 				</header>
 
 				<div class="article-content">
 									
 					<hr />
 
-					<p>
-						По-долу ще намериш достатъчно материал, за да придобиеш представа какво НЕ трябва да правиш в SoftUni.
+					<p class="center-text">
+						Колекция от примери и анти-примери.
 					</p>
 
 					<hr />

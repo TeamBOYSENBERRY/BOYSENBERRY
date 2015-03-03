@@ -35,13 +35,8 @@
                         <ul>
                             <li><a href="index.php">Начало</a></li>
                             <li><a href="team.php">Екип</a></li>
-                            <li><span tabindex="0">Openers</span>
-                                <ul>
-                                    <li><a href="pick-ups-soft.php">soft</a></li>
-                                    <li><a href="#">hardcore</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="fails.php">Fails</a></li>
+                            <li><a href="pick-ups-soft.php">Openers</a></li>
+                            <li><a href="fails.php">Видео</a></li>
                             <li><a href="developer-live-jokes.php">Developer jokes</a></li>
                         </ul>
                         <label for="togglebox" id="navtoggler"></label>
