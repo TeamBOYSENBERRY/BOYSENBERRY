@@ -824,9 +824,6 @@ main {
   -ms-user-select: none;
   user-select: none; }
 
-.sj-book .page {
-  height: 100%; }
-
 /*--------------- Bottom ---------------*/
 .site-footer {
   border-top: 1px solid #c1c1c1;

@@ -3,10 +3,40 @@
 
 jQuery(function($) {
 
+    $book = this;
+    this.$elem = document.getElementsByClassName('sj-book');
+    var display;
+
+    $(window).on('resize', function() {
+        var windowWidth = $(window).width();
+
+
+        if (windowWidth < 768) {
+            display = 'single';
+            //$('.own-size').css("width", 300);
+            $($book.$elem).turn('display', display);
+            $($book.$elem).turn('size', windowWidth, 800);
+            $('.own-size').css("width", windowWidth/2);
+            $('.own-size').css("height", 582);
+
+            $('.hard').css("width", windowWidth);
+
+        } else {
+            display = 'double';
+            windowWidth *= 0.9;
+            $($book.$elem).turn('display', display);
+            $($book.$elem).turn('size', windowWidth*0.9, 800);
+            $('.own-size').css("width", windowWidth*0.9/2*0.977);
+            $('.own-size').css("height", 582);
+            $('.hard').css("width", windowWidth*0.9/2);
+        }
+
+    });
+
     function menuToggle()
     {
         var windowWidth = $(window).width();
-        var display = '';
+
 
         if (windowWidth < 768) {
             display = 'single';
@@ -18,7 +48,6 @@ jQuery(function($) {
             $('.own-size').css("width", windowWidth/2*0.977);
         }
 
-        $('.depth').css("width", windowWidth/2*0.09);
 
         $('.sj-book').turn({
             width: windowWidth,
@@ -75,6 +104,16 @@ jQuery(function($) {
 
                 },
 
+                first: function(event) {
+                    console.log($(this).turn('page'));
+                    if (display == 'single') {
+
+                        if ($(this).turn('page') == 2) {
+                            $(this).turn('page', 3);
+                        }
+                    }
+                },
+
                 turned: function(e, page, view) {
 
                     var book = $(this);
@@ -88,7 +127,7 @@ jQuery(function($) {
                     $('#slider').slider('value', getViewNumber(book, page));
 
                     book.turn('center');
-
+                    $('.sj-book').turn('resize');
                 },
 
                 start: function(e, pageObj) {

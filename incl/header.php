@@ -6,7 +6,6 @@
 	<title>Talk QWERTY to me &mdash; By BOYSENBERRY team.</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/_slider.css">
-    <link rel="stylesheet" type="text/css" href="css/book.css">
 
     <link rel="stylesheet" type="text/css" href="css/page-with-slider.css">
 

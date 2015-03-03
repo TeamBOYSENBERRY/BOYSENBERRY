@@ -6,12 +6,12 @@
                 <div class="t">
                     <div class="tc rel">
                         <div id="sj-book" class="sj-book">
-                            <div depth="5" class="hard cover"><div class="side"></div>
+                            <div class="hard cover"><div class="side"></div>
                                 <h1>nara4nik na svalq4a</h1>
                             </div>
-                            <div depth="5" class="hard front-side"><div class="depth"></div>
+                            <div class="hard front-side"><div class="depth"></div>
                             </div>
-                            <div class="paper own-size">
+                            <div class="paper">
                                 <article>
                                     <p>Ако животът беше клас, ти щеше да си моят конструктор...защото аз съм нищо без теб!</p>
                                     <div class="line"></div>
@@ -32,7 +32,7 @@
                                     <p>Няма нужда да редактирам твоя css, ти вече си перфектна.</p>
                                 </article>
                             </div>
-                            <div class="paper own-size">
+                            <div class="paper">
                                 <article>
                                     <p>С твоя framework бих изградил перфектния живот!</p>
                                     <div class="line"></div>
@@ -53,7 +53,7 @@
                                     <p>Бебчо, изглеждаш прекрасно от &lt;head> до &lt;/footer>.</p>
                                 </article>
                             </div>
-                            <div class="paper own-size">
+                            <div class="paper">
                                 <article>
                                     <p>Скъпа, няма нужда да те каствам, ти си точно моят тип!</p>
                                     <div class="line"></div>
@@ -74,7 +74,7 @@
                                     <p>За теб бих използвал Emacs!</p>
                                 </article>
                             </div>
-                            <div class="paper own-size">
+                            <div class="paper">
                                 <article>
                                     <p>Скъпа, няма нужда да те каствам, ти си точно моят тип!</p>
                                     <div class="line"></div>
@@ -95,7 +95,7 @@
                                     <p>За теб бих използвал Emacs!</p>
                                 </article>
                             </div>
-                            <div class="paper own-size">
+                            <div class="paper">
                                 <article>
                                     <p>Скъпа, няма нужда да те каствам, ти си точно моят тип!</p>
                                     <div class="line"></div>
@@ -116,7 +116,7 @@
                                     <p>За теб бих използвал Emacs!</p>
                                 </article>
                             </div>
-                            <div class="paper own-size">
+                            <div class="paper">
                                 <article>
                                     <p>Скъпа, няма нужда да те каствам, ти си точно моят тип!</p>
                                     <div class="line"></div>
@@ -137,7 +137,7 @@
                                     <p>За теб бих използвал Emacs!</p>
                                 </article>
                             </div>
-                            <div class="hard fixed back-side p9"> <div class="depth"></div> </div>
+                            <div class="hard fixed back-side p9"><div class="depth"></div></div>
                             <div class="hard p10"></div>
                         </div>
                     </div>
