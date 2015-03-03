@@ -4,15 +4,15 @@
 		<section class="section group">
 			<article class="col span_12_of_12">
 				<header>
-					<h2 class="center-text">Когато не знаеш какво да кажеш, по-добре мълчи.</h2>
+					<h2 class="center-text">Видео.</h2>
 				</header>
 
 				<div class="article-content">
 									
 					<hr />
 
-					<p>
-						По-долу ще намериш достатъчно материал, за да придобиеш представа какво НЕ трябва да правиш в SoftUni.
+					<p class="center-text">
+						Колекция от примери и анти-примери.
 					</p>
 
 					<hr />
@@ -20,6 +20,15 @@
 					<iframe src="https://www.youtube.com/embed/1LBfr2UVm-A" frameborder="0" allowfullscreen></iframe>
 
 					<iframe src="https://www.youtube.com/embed/91w_pC0IN80" frameborder="0" allowfullscreen></iframe>
+					
+					<iframe src="https://www.youtube.com/embed/lRfwMKd4DVg" frameborder="0" allowfullscreen></iframe>
+					
+					<iframe src="https://www.youtube.com/embed/ZLduZbfo5_k" frameborder="0" allowfullscreen></iframe>
+					
+					<iframe src="https://www.youtube.com/embed/0-o6nOIQnw0" frameborder="0" allowfullscreen></iframe>
+					
+					<iframe src="https://www.youtube.com/embed/vPqZtdURg9U" frameborder="0" allowfullscreen></iframe>
+					
 				</div>
 			</article>
 		</section>

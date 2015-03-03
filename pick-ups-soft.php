@@ -7,7 +7,9 @@
                     <div class="tc rel">
                         <div id="sj-book" class="sj-book">
                             <div class="hard cover"><div class="side"></div>
-                                <h1>nara4nik na svalq4a</h1>
+                                <img src="img/svetlin-nakov.jpg">
+                                <h3>collectors edition</h3>
+                                <h1>Introduction to my Bible</h1>
                             </div>
                             <div class="hard front-side"><div class="depth"></div>
                             </div>
@@ -76,66 +78,68 @@
                             </div>
                             <div class="paper">
                                 <article>
-                                    <p>Скъпа, няма нужда да те каствам, ти си точно моят тип!</p>
+                                    <p>Изчукай ме, ако греша, но мисля, че се казваш Гинка!</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>За теб бих сийдвал до края на живота си!</p>
+                                    <p>Приличаш ми на домашното за вторник - все още не съм те оправил, а трябва!</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>По красива си от точния енкодинг в MySQL.</p>
+                                    <p>Според теб каква е разликата между Ферари и ерекция? Нямам ферари!</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>Бих те catch-нал като ексепшън.</p>
+                                    <p>Обичам да спя в моето легло, но препочитам твоето.</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>За теб бих използвал Emacs!</p>
+                                    <p>Лошо момиче, марш в стаята ми!</p>
                                 </article>
                             </div>
                             <div class="paper">
                                 <article>
-                                    <p>Скъпа, няма нужда да те каствам, ти си точно моят тип!</p>
+                                    <p>Топло ли е тук или просто твоите гърди са твърде големи?</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>За теб бих сийдвал до края на живота си!</p>
+                                    <p>Миришеш! Хайде да ходим в нас да те изкъпя, бебчо.</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>По красива си от точния енкодинг в MySQL.</p>
+                                    <p>Имам скитълс в устата си. Wanna taste the rainbow?</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>Бих те catch-нал като ексепшън.</p>
+                                    <p>Искам любовта ни да е като Пи - нерационална и безкрайна!</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>За теб бих използвал Emacs!</p>
+                                    <p>Изгубих си телефонния номер. Мога ли да използвам твоя?</p>
                                 </article>
                             </div>
                             <div class="paper">
                                 <article>
-                                    <p>Скъпа, няма нужда да те каствам, ти си точно моят тип!</p>
+                                    <p>Съжалявам, на мен ли говореше?"Не."Well then, please start.</p>
                                     <div class="line"></div>
                                 </article>
                                 <article>
-                                    <p>За теб бих сийдвал до края на живота си!</p>
+                                    <p>Можеш ли да хванеш моят exception, защото I'm falling in teamwork with you!</p>
                                     <div class="line"></div>
                                 </article>
-                                <article>
-                                    <p>По красива си от точния енкодинг в MySQL.</p>
-                                    <div class="line"></div>
+                               <article>
+                                    <p>Baby, ти си толкова гореща, колкото дъното на лаптопа ми!</p>
+									<div class="line"></div>
                                 </article>
-                                <article>
-                                    <p>Бих те catch-нал като ексепшън.</p>
-                                    <div class="line"></div>
+								<article>
+                                    <p>Иска ми се да select-на всичките ти дрехите и да натисна delete.</p>
+									<div class="line"></div>
                                 </article>
-                                <article>
-                                    <p>За теб бих използвал Emacs!</p>
+								<article>
+                                    <p>Разкажи ми за себе си, мечтите си, амбициите си, и за телефония си номер.</p>
+									<div class="line"></div>
                                 </article>
+								
                             </div>
                             <div class="hard fixed back-side p9"><div class="depth"></div></div>
                             <div class="hard p10"></div>

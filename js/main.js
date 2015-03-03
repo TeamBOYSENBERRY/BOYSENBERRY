@@ -33,6 +33,10 @@ jQuery(function($) {
 
     });
 
+    $('.paper').each(function(index) {
+        $(this).append("<div style='width: 10%;margin: auto;border-top: 1px solid grey'><p style='margin-top: 0'>"+(index+2)+"</p></div>")
+    });
+
     function menuToggle()
     {
         var windowWidth = $(window).width();

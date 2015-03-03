@@ -3,9 +3,32 @@
     .hero {
       height: 500px;
     }
+
+    .sj-book .cover h3 {
+      top: 0;
+      left: 0;
+      transform: rotate(-20deg);
+      width: 40%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sj-book .cover h3 {
+      top: 50%;
+      transform: rotate(0deg);
+      display: block;
+      width: 100%;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
+
+    .sj-book .cover h3 {
+      top: 0;
+      left: 0;
+      transform: rotate(-20deg);
+      width: 30%;
+    }
 
     .pickups {
       padding: 0;
@@ -27,6 +50,14 @@
 }
 
 @media (max-width: 640px) {
+
+    .sj-book .cover h3 {
+      top: 0;
+      left: 0;
+      transform: rotate(-20deg);
+      width: 30%;
+      font-size: 0.8em;
+    }
 
     .pickups {
       padding: 0;

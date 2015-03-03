@@ -14,20 +14,6 @@
     width: 100%;
 }
 
-.sj-book .zoom-this:hover{
-	opacity:0.9;
-	cursor:pointer;
-}
-
-
-.animated{
-	-webkit-transition:margin-left 0.2s ease-in-out;
-	-moz-transition:margin-left 0.2s ease-in-out;
-	-o-transition:margin-left 0.2s ease-in-out;
-	-ms-transition:margin-left 0.2s ease-in-out;
-	transition:margin-left 0.2s ease-in-out;
-}
-
 .sj-book .shadow{
 	-webkit-transition: -webkit-box-shadow 0.5s;
 	-moz-transition: -moz-box-shadow 0.5s;
@@ -47,11 +33,9 @@
 	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
 	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
 	box-shadow:0 0 20px rgba(0,0,0,0.2);
+    background: #ffffff;
 }
 
-.sj-book .p1{
-	background-position:0 0;
-}
 
 .sj-book .p1 .side{
 	width:5px;
@@ -110,7 +94,19 @@
     border-bottom: 3px solid #000000;
     border-top: 3px solid #000000;
     padding: 10px 0;
-    margin-top: 60%;
+    font-size: 36px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.sj-book .cover h3 {
+  color: #1c0000;
+  background: #dddddd;
+  border-bottom: 3px solid #000000;
+  border-top: 3px solid #000000;
+  padding: 10px 0;
+  position: absolute;
 
 }
 
@@ -123,9 +119,11 @@
 }
 
 .sj-book .hard{
-	width:800px;
-	height:600px;
     background: linear-gradient(to right, #8b0000 0%, #670000 5%, #670000 95%, #320000 100%);
+    img {
+      margin-top: 10%;
+        width: 100%;
+    }
 
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
@@ -141,11 +139,9 @@
 }
 
 .sj-book .own-size{
-	height:582px;
 	background-color:white;
 	overflow:hidden;
 }
-
 
 .sj-book .page-number{
 	color:#999;
@@ -171,7 +167,28 @@
 	margin-top: 7px;
 	margin-left:18px;
 }
+.sj-book .odd:not(.hard){
+  background-image:  -moz-linear-gradient(to right, #606060 0%, white 5%);
+  background-image:  -webkit-linear-gradient(to right, #606060 0%, white 5%);
+  background-image:  -ms-linear-gradient(to right, #606060 0%, white 5%);
+  background-image:  -o-linear-gradient(to right, #606060 0%, white 5%);
+  background-image:  linear-gradient(to right, #606060 0%, white 5%);
 
+  border-left: 1px solid #606060;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.sj-book .even:not(.hard){
+  background-image:  -moz-linear-gradient(to right, white 95%, #606060 100%);
+  background-image:  -webkit-linear-gradient(to right, white 95%, #606060 100%);
+  background-image:  -ms-linear-gradient(to right, white 95%, #606060 100%);
+  background-image:  -o-linear-gradient(to right, white 95%, #606060 100%);
+  background-image:  linear-gradient(to right, white 95%, #606060 100%);
+  border-right: 1px solid #606060;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
 .paper {
   display: block;
   height: 100%;
@@ -179,15 +196,16 @@
   border: 1px solid #F0F0F0;
 
   /* gradients - second red border, first red border, top white space, blue lines */
-  background-image:  -webkit-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -webkit-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -webkit-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -webkit-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
+  /*background-image:  -webkit-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -webkit-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -webkit-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -webkit-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
   background-image:  -moz-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -moz-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -moz-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -moz-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
   background-image:  -ms-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -ms-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -ms-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -ms-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
   background-image:  -o-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -o-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -o-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -o-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
   background-image:  linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
   background-size: 1px, 1px, auto, auto 20px;
   background-repeat: repeat-y, repeat-y, no-repeat, repeat;
-  background-position: 90% 0px, 10% 0px, 0px 0px, 0px 0px;
+  background-position: 90% 0px, 10% 0px, 0px 0px, 0px 0px;*/
 
+  //background-image:  -moz-linear-gradient(to right, white 90%, black 100%);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -278,14 +296,4 @@
 
 .rel {
   position: relative;
-}
-
-.sj-book {
-  margin: 0 auto;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
