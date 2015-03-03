@@ -20,6 +20,10 @@
 					<iframe src="https://www.youtube.com/embed/1LBfr2UVm-A" frameborder="0" allowfullscreen></iframe>
 
 					<iframe src="https://www.youtube.com/embed/91w_pC0IN80" frameborder="0" allowfullscreen></iframe>
+					
+					<iframe src="https://www.youtube.com/watch?v=ZLduZbfo5_k" frameborder="0" allowfullscreen></iframe>
+					
+					<iframe src="https://www.youtube.com/watch?v=lRfwMKd4DVg" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</article>
 		</section>

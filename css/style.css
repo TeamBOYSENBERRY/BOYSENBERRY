@@ -637,6 +637,15 @@ hr {
   color: #fff;
   text-align: center; }
 
+  .hero:hover {
+  margin-top: 100px;
+  padding: 150px 0;
+  background-image: url("../img/Smart-hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center; }
+
 .slogan span {
   padding: 0 20px;
   background: rgba(255, 78, 0, 0.8); }
