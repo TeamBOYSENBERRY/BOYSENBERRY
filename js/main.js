@@ -59,7 +59,7 @@ jQuery(function($) {
     });
 
     $('.paper').each(function(index) {
-        $(this).append("<div style='width: 10%;margin: auto;border-top: 1px solid grey'><p style='margin-top: 0'>"+(index+2)+"</p></div>")
+        $(this).append("<div style='position: absolute; bottom: 0;width: 10%;margin: auto;padding-top: 10px;border-top: 1px solid grey'><p style='margin-top: 0'>"+(index+2)+"</p></div>")
     });
 
     $(window).keydown(function(e) {

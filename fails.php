@@ -5,17 +5,10 @@
 			<article class="col span_12_of_12">
 				<header>
 					<h2 class="center-text">Видео.</h2>
+					<hr />
 				</header>
 
 				<div class="article-content">
-									
-					<hr />
-
-					<p class="center-text">
-						Колекция от примери и анти-примери.
-					</p>
-
-					<hr />
 
 					<iframe src="https://www.youtube.com/embed/1LBfr2UVm-A" frameborder="0" allowfullscreen></iframe>
 
@@ -29,6 +22,11 @@
 					
 					<iframe src="https://www.youtube.com/embed/vPqZtdURg9U" frameborder="0" allowfullscreen></iframe>
 					
+					<iframe src="https://www.youtube.com/embed/wV2KC50rui0" frameborder="0" allowfullscreen></iframe>
+
+					<iframe src="https://www.youtube.com/embed/nAtoL7_XNeg" frameborder="0" allowfullscreen></iframe>
+
+					<iframe src="https://www.youtube.com/embed/0CrQQGMvA8g" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</article>
 		</section>

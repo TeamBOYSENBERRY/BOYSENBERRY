@@ -557,6 +557,17 @@ hr {
   padding: 20px 0 10px 0;
   z-index: 99999; }
 
+.logo{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.team-name{
+  display: inline-block;
+
+}
+
 #togglebox {
   display: none; }
 
@@ -649,6 +660,29 @@ hr {
   margin-top: 0;
   padding-top: 0; }
 
+.call-to-action{
+  padding-top: 30px;
+}
+
+.btn-accent{
+  background: rgb(50, 200, 50);
+  padding: 10px 15px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: .8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+a:hover.btn-accent{
+  background: rgb(50, 170, 50);
+  color: #fff;
+  box-shadow: 0px 3px 5px 1px rgba(0,0,0,.3);
+}
+
 /*--------------- Middle ---------------*/
 .main-content {
   margin-top: 100px;
@@ -672,7 +706,27 @@ hr {
   padding: 0 auto; }
 
 .member-info {
+  text-align: right;
   margin-top: 15px; }
+
+.member-info img{
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+.member-info img:hover{
+  opacity: .5;
+}
+
+.info-box-img{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.info-box-title{
+  display: inline-block;
+}
 
 .info-row {
   margin-bottom: 30px;
@@ -951,7 +1005,8 @@ main {
   transition: margin-left 0.2s ease-in-out; }
 
 .sj-book {
-  padding: 100px 0;
+  margin-top: -100px;
+  padding: 50px 0;
   width: 100%; }
 
 .sj-book .shadow {
