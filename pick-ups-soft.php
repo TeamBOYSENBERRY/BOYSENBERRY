@@ -2,7 +2,11 @@
 
     <main class="pickups container-l">
         <section class="section group">
-            <div class="col span_12_of_12">
+            <div>
+                <h2 class="center-text">Опънъри</h2>
+                <hr />
+            </div>
+
                 <div class="t">
                     <div class="tc rel">
                         <div id="sj-book" class="sj-book">
@@ -211,7 +215,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
     </main>
 

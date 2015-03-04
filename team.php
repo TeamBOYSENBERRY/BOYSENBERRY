@@ -2,6 +2,11 @@
 
 	<main class="main-content container-s">
 		<section>
+			<div>
+				<h2 class="center-text">Екип</h2>
+				<hr />
+			</div>
+
 			<article class="member">
 				<div class="section group">
 					<div class="col span_9_of_12">
