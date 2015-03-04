@@ -120,6 +120,50 @@
                             </div>
                             <div class="paper">
                                 <article>
+                                    <p>Какво ще кажеш да обходиш този многомерен масив?</p>
+                                    <div class="line"></div>
+                                </article>
+                                <article>
+                                    <p>unzip(); touch(); sleep()</p>
+                                    <div class="line"></div>
+                                </article>
+                               <article>
+                                    <p>Току що превърна софтуера ми във хардуер!</p>
+                                    <div class="line"></div>
+                                </article>
+                                <article>
+                                    <p>Още използваш IE? Сигурно обичаш да го правиш баааааавно!</p>
+                                    <div class="line"></div>
+                                </article>
+                                <article>
+                                    <p>Още като влезе в залата преминах на Caps Lock!</p>
+                                    <div class="line"></div>
+                                </article>
+                            </div>
+                            <div class="paper">
+                                <article>
+                                    <p>Все още няма примитивен тип данни, който ще побере нещата, които бих направил с теб довечера.</p>
+                                    <div class="line"></div>
+                                </article>
+                                <article>
+                                    <p>While (съдържанието на алкохол в кръвта >= 0.3) {Твоята привлекателност++; }</p>
+                                    <div class="line"></div>
+                                </article>
+                               <article>
+                                    <p>В твоя хоумпейдж или в моя?</p>
+                                    <div class="line"></div>
+                                </article>
+                                <article>
+                                    <p>Какво ще кажеш да си мърджнем леърите?</p>
+                                    <div class="line"></div>
+                                </article>
+                                <article>
+                                    <p>My activeElement = input.lenght()++;</p>
+                                    <div class="line"></div>
+                                </article>
+                            </div>
+                            <div class="paper">
+                                <article>
                                     <p>Съжалявам, на мен ли говореше?"Не."Well then, please start.</p>
                                     <div class="line"></div>
                                 </article>
@@ -139,7 +183,28 @@
                                     <p>Разкажи ми за себе си, мечтите си, амбициите си, и за телефония си номер.</p>
 									<div class="line"></div>
                                 </article>
-								
+                            </div>
+                            <div class="paper">
+                                <article>
+                                    <p>Не, скъпа, това е джоба ми не е безжична мишка, просто се радвам да те видя.</p>
+                                    <div class="line"></div>
+                                </article>
+                                <article>
+                                    <p>Хей сладурче, случайно да търсиш някой, който да ти форматира партишъна?</p>
+                                    <div class="line"></div>
+                                </article>
+                               <article>
+                                    <p>Този Overflow Exception в панталоните ми няма сам да се прихване, действай!</p>
+                                    <div class="line"></div>
+                                </article>
+                                <article>
+                                    <p>Хайде в нас да си поиграем с операционната ти система.</p>
+                                    <div class="line"></div>
+                                </article>
+                                <article>
+                                    <p>Бих подал long параметър в тези скоби, бебчо!</p>
+                                    <div class="line"></div>
+                                </article>
                             </div>
                             <div class="hard fixed back-side p9"><div class="depth"></div></div>
                             <div class="hard p10"></div>
