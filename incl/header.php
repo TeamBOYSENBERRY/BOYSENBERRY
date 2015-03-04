@@ -17,7 +17,6 @@
     <script type="text/javascript" src="js/turn-js/jquery.mousewheel.min.js"></script>
     <script type="text/javascript" src="js/turn-js/modernizr.2.5.3.min.js"></script>
     <script type="text/javascript" src="js/turn-js/hash.js"></script>
-    <script type="text/javascript" src="js/turn-js/book.js"></script>
 </head>
 <body>
 
