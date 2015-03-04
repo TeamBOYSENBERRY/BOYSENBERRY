@@ -3,7 +3,7 @@
     <main class="pickups container-l">
         <section class="section group">
             <div>
-                <h2 class="center-text">Опънъри</h2>
+                <h2 class="center-text">Любовни снипети</h2>
                 <hr />
             </div>
 
