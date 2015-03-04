@@ -83,7 +83,7 @@
                           </nav>
                         </li>
                       <li id="eleven" class="slide">
-                        <img src="kolagi/11.jpg" alt="Slide 511">
+                        <img src="kolagi/11.jpg" alt="Slide 11">
                           <nav>
                             <a class="prev" href="#ten">&larr;</a>
                             <a class="next" href="#one">&rarr;</a>
