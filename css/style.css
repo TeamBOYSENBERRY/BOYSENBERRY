@@ -664,6 +664,15 @@ hr {
   padding-top: 30px;
 }
 
+.big-cta-container{
+  margin-bottom: 120px;
+}
+
+.big-call-to-action{
+  padding: 30px;
+  background: green;
+}
+
 .btn-accent{
   background: rgb(50, 200, 50);
   padding: 10px 15px;
@@ -739,6 +748,27 @@ a:hover.btn-accent{
 
 .info-box-title {
   margin-top: 0; }
+
+.chat-box{
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 30px;
+}
+
+.testimonials{
+  margin-top: -40px;
+  padding-top: 60px;
+  border-top: 1px solid #eee;
+}
+
+.pesho{
+  width: 100%;
+  height: 100%;
+}
+
+.pesho-title{
+  margin-top: 0;
+}
 
 .pickups {
   margin-top: 100px;

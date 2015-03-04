@@ -4,7 +4,7 @@
     <main class="main-content container-s page-with-slider">
         
         <section class="">
-            <article class=" with-slider">
+            <article class="with-slider">
                 <header>
                     <h3 class="slider-title">Ако ти е писнало от мацки...разцъкай тук.</h3>
                 </header>
@@ -130,7 +130,6 @@
                   </div>
                 </div>
             </article>
-
            
         </section>
     </main>
