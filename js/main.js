@@ -16,7 +16,6 @@ jQuery(function($) {
             $($book.$elem).turn('size', $windowWidth, 800);
             //$('.own-size').css("width", windowWidth/2);
             //$('.own-size').css("height", 582);
-
             $('.hard').css("width", $windowWidth);
 
         } else {
@@ -31,6 +30,7 @@ jQuery(function($) {
 
     });
 
+    /* load the page from the URL */
     function loadPage(page) {
 
         $.ajax({url: 'pages/page' + page + '.html'}).
@@ -40,6 +40,7 @@ jQuery(function($) {
 
     }
 
+    /* change the URL when the page is turned */
     Hash.on('^page\/([0-9]*)$', {
         yep: function(path, parts) {
 
@@ -58,10 +59,12 @@ jQuery(function($) {
         }
     });
 
+    /* set page numbers */
     $('.paper').each(function(index) {
         $(this).append("<div style='position: absolute; bottom: 0;width: 10%;margin: auto;padding-top: 10px;border-top: 1px solid grey'><p style='margin-top: 0'>"+(index+2)+"</p></div>")
     });
 
+    /* turn the pages when the arrow keys are down */
     $(window).keydown(function(e) {
         if (e.keyCode==37)
             $('.sj-book').turn('previous');
@@ -69,7 +72,7 @@ jQuery(function($) {
             $('.sj-book').turn('next');
     });
 
-    function menuToggle()
+    function initBook()
     {
         $windowWidth = $(window).width();
         if ($windowWidth < 768) {
@@ -99,5 +102,5 @@ jQuery(function($) {
         });
     }
 
-    menuToggle();
+    initBook();
 });

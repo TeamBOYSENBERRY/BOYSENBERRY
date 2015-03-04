@@ -789,7 +789,12 @@ a:hover.btn-accent{
   transform: translateY(20px) translateX(5px) rotate(-2deg);
   position: absolute;
   bottom: 0;
-  left: 5%; }
+  left: 5%;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;}
 
 main {
   overflow: hidden; }
@@ -800,7 +805,8 @@ main {
   height: 10%;
   vertical-align: middle; }
   .paper article:hover .line {
-    border-bottom: 2px solid #ff180c; }
+    border-bottom: 2px solid #ff180c;
+    width: 90%;}
   .paper article p {
     display: inline-block; }
 
@@ -822,6 +828,11 @@ main {
     left: 0;
     transform: rotate(-20deg);
     width: 40%; } }
+@media (max-width: 1200px) {
+    .top-header {
+        height: 120px;
+    }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .sj-book .cover h3 {
     top: 50%;
