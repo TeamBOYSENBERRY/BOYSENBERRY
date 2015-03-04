@@ -49,6 +49,27 @@
 				</div>
 			</article>
 		</section>
+
+		
 	</main>
+
+	<div class="container-s testimonials">
+
+		<div class="section group">
+			<div class="col span_3_of_12">
+				<img src="http://memeorama.com/wp-content/uploads/2012/01/Butthurt-Dweller-Gordo-Granudo-Meme-Template-Blank.jpeg" class="pesho">
+			</div>
+
+			<div class="col span_9_of_12">
+				<h4 class="pesho-title">Историята на Pesho</h4>
+
+				<p>
+					Това, което правим, не е шега. Налице са истории на успеха като тази на Pesho - софтуерен инженер, създал известното Hello World приложение, работил за компании като "RabotQ za Sebe si" и "RabotQ v1rhu sebe si, we!".
+				</p>
+
+				<div class="big-cta-container"><a href="diary.php" class="btn-accent">Д(н)евника на Pesho &rarr;</a></div>
+			</div>	
+		</div>
+	</div>
 
 <?php include 'incl/footer.php'; ?>

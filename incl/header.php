@@ -17,7 +17,6 @@
     <script type="text/javascript" src="js/turn-js/jquery.mousewheel.min.js"></script>
     <script type="text/javascript" src="js/turn-js/modernizr.2.5.3.min.js"></script>
     <script type="text/javascript" src="js/turn-js/hash.js"></script>
-    <script type="text/javascript" src="js/turn-js/book.js"></script>
 </head>
 <body>
 
@@ -35,8 +34,9 @@
                         <ul>
                             <li><a href="index.php">Начало</a></li>
                             <li><a href="team.php">Екип</a></li>
-                            <li><a href="pick-ups-soft.php">Openers</a></li>
+                            <li><a href="pick-ups-soft.php">Любовни Снипети</a></li>
                             <li><a href="fails.php">Видео</a></li>
+                            <li><a href="diary.php">Д(н)евникът на Pesho</a></li>
                             <li><a href="developer-live-jokes.php">Developer jokes</a></li>
                         </ul>
                         <label for="togglebox" id="navtoggler"></label>
