@@ -5,7 +5,7 @@
 		<section class="section group info-row">
 			<article class="col span_6_of_12 info-box">
 				<header>
-					<img src="img/icons/icon_heart.png" class="info-box-img">
+					<img src="img/icons/icon_heart.png" alt="heart-icon" class="info-box-img">
 					<h3 class="info-box-title">Love snippets</h3>
 				</header>
 
@@ -16,7 +16,7 @@
 
 			<article class="col span_6_of_12 info-box">
 				<header>
-					<img src="img/icons/icon_info.png" class="info-box-img">
+					<img src="img/icons/icon_info.png" alt="info-icon" class="info-box-img">
 					<h3 class="info-box-title">Какво има тук?</h3>
 				</header>
 
@@ -29,7 +29,7 @@
 		<section class="section group info-row">
 			<article class="col span_6_of_12 info-box">
 				<header>
-					<img src="img/icons/icon_question_alt.png" class="info-box-img">
+					<img src="img/icons/icon_question_alt.png" alt="questions icon" class="info-box-img">
 					<h3 class="info-box-title">Защо?</h3>
 				</header>
 
@@ -40,7 +40,7 @@
 
 			<article class="col span_6_of_12 info-box">
 				<header>
-					<img src="img/icons/icon_close_alt.png" class="info-box-img">
+					<img src="img/icons/icon_close_alt.png" alt="Close icon" class="info-box-img">
 					<h3 class="info-box-title">Бъди себе си.</h3>
 				</header>
 
@@ -57,7 +57,7 @@
 
 		<div class="section group">
 			<div class="col span_3_of_12">
-				<img src="http://memeorama.com/wp-content/uploads/2012/01/Butthurt-Dweller-Gordo-Granudo-Meme-Template-Blank.jpeg" class="pesho">
+				<img alt="Pesho" src="http://memeorama.com/wp-content/uploads/2012/01/Butthurt-Dweller-Gordo-Granudo-Meme-Template-Blank.jpeg" class="pesho">
 			</div>
 
 			<div class="col span_9_of_12">

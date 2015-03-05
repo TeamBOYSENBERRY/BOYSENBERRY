@@ -24,7 +24,7 @@
 		<div class="container-m">
 			<div class="section group">
 				<div class="col span_3_of_12">
-					<img src="img/logo/logo.png" class="logo">
+					<img src="img/logo/logo.png" alt="Boysenberry logo" class="logo">
 					<h1 class="team-name h4-size"><a href="index.php">Boysenberry</a><span class="font-light">team</span></h1>
 				</div>
 
